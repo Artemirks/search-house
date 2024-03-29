@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    padding: 1.492vw 3.697vw 1.639vw 2.256vw;
+    background: #8E99C5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-info span {
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.nav-buttons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.actionBtn {
+    padding: 11px 20px;
+    border-radius: 20px;
+    background: #FFF;
+    color: #3A375E;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+}
+
+.actionBtn:hover {
+    background: #f5f4f4
+}
+
+.changePass {
+    font-size: 1.3rem;
+    margin-top: 1.5vw;
+    display: inline-block;
+}
+
+.nav-info {
+    cursor: pointer;
+}
+
+#reg, #auth {
+    font-size: 1.4rem;
+    padding: 15px 50px;
+}
+
+#lk-user {
+    border: none;
+    max-width: 10vw;
+}
+
+#lk-user button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+}

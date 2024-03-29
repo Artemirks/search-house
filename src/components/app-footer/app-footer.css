@@ -1,0 +1,18 @@
+.app-footer {
+    position: relative;
+    display: flex;
+    bottom: 0;
+    background: #3A375E;
+    padding: 1.492vw 3.697vw 1.639vw 2.256vw;
+}
+
+.app-footer a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.app-footer a:hover {
+    text-decoration: underline;
+}

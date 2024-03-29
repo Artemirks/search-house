@@ -1,0 +1,95 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 7;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal_content {
+    padding: 2.461vw 2.097vw 2.575vw 2.178vw;
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 50vw;
+    max-width: 580px;
+    transform: scale(0);
+    transition: 0.4s all;
+}
+
+.modal_content.active {
+    transform: scale(1);
+}
+
+.modal_content .firstLine {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.modal_content h2 {
+    font-size: 2rem;
+}
+
+.modal_content .close {
+    align-self: flex-start;
+    font-size: 3.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.modal_content input[type="text"],
+.modal_content input[type="email"],
+.modal_content input[type="password"] {
+    display: flex;
+    padding: 0.833vw 1.111vw;
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 18px;
+    border: 1px solid #3A375E;
+    margin-bottom: 1.472vw;
+}
+
+.modal_content button {
+    width: 100%;
+    padding: 1.483vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background: #8E99C5;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.modal_content button:hover {
+    background: #7484c8;
+}
+
+.personal {
+   display: flex;
+   margin-bottom: 1vw;
+}
+
+.personal label {
+    font-size: 1.3rem;
+}
+
+.personal input {
+    width: 1.3rem;
+    height: 1.3rem;
+}

@@ -1,0 +1,117 @@
+.mainUser {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background: #E1E1E1;
+    padding: 2.431vw;
+}
+
+.userMenu {
+    width: 30%;
+}
+
+.userMenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.userMenu li {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.userMenu li.active {
+    font-weight: bold;
+    background: #D1CFCF;
+}
+
+.requiredData {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.redStar{
+    color: red;
+}
+
+.userData {
+    display: flex;
+    width: 65%;
+    background: #FFF;
+    padding: 1.5vw 1.5vw 0.6vw 1.5vw;
+    flex-direction: column;
+}
+
+.userData h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.inputContainer {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+.inputContainer p {
+    width: 500px;
+    font-size: 1.1rem;
+}
+
+label {
+    display: block;
+    font-size: 1.4rem;
+    width: 140px;
+    line-height: 1.2;
+}
+
+input,
+select {
+    width: 40%;
+    border-radius: 18px;
+    border: 1px solid #3A375E;
+    background: #FFF;
+    padding: 9px 15px;
+    font-size: 1.5rem;
+    color: #3A375E;
+}
+
+#phone {
+    width: 22%;
+}
+
+#gender {
+    width: auto;
+    cursor: pointer;
+}
+
+#birthdate {
+    width: 50%;
+    cursor: pointer;
+}
+
+.redStar {
+    color: red;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.mainUser .saveButton {
+    align-self: flex-end;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    background: #3A375E;
+    height: 60px;
+    padding: 0px 30px;
+    font-size: 1.3rem;
+    color: white;
+}

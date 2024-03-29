@@ -1,0 +1,291 @@
+.wrapperCreate {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    background: #E1E1E1;
+}
+
+.objectData {
+    display: flex;
+    width: 80%;
+    background: #FFF;
+    padding: 1.5vw 1.5vw 0.6vw 1.5vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.objectData input {
+    width: 50%;
+}
+
+.objectData textarea {
+    font-family: Roboto;
+    padding: 12px 16px;
+    width: 50%;
+    resize: none;
+    border-radius: 18px;
+    border: 1px solid #3A375E;
+    background: #FFF;
+    color: #3A375E;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.objectData .nextButton,
+.objectData .prevButton {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    background: #3A375E;
+    height: 60px;
+    padding: 0px 30px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.objectData .nextButton {
+    align-self: flex-end;
+}
+
+.objectData #house_number {
+    width: 30%;
+}
+
+.objectData #id_apartmentType {
+    width: auto;
+}
+
+.stepperContainer {
+    display: flex;
+    align-items: center;
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+}
+
+.stepper button,
+.bedContainer button {
+    cursor: pointer;
+    background-color: #3A375E;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 0 8px;
+}
+
+.stepper span {
+    font-size: 1.2rem;
+    margin: 0 8px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stepperContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+}
+
+.stepper button {
+    cursor: pointer;
+    background-color: #3A375E;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    margin: 0 8px;
+    font-size: 1.4rem;
+}
+
+.stepper span {
+    font-size: 1.6rem;
+    margin: 0 8px;
+}
+
+.bedContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bedContainer select {
+    width: 50%;
+    margin-right: 10px;
+}
+
+
+.bedContainer .removeBed {
+    background-color: #FF4949;
+    /* Цвет для кнопки удаления */
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+/* Добавлено для стилизации кнопок +- и поля выбора типа кровати */
+.addBed {
+    cursor: pointer;
+    background-color: #8e99c5;
+    /* Цвет для кнопки добавления кровати */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+.wrapperOb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wrapperOb label {
+    width: auto;
+}
+
+#areaContainer {
+    max-width: 500px;
+}
+
+#areaContainer label {
+    width: 385px;
+}
+
+#areaContainer input {
+    width: 240px;
+}
+
+.wrapperG {
+    display: flex;
+    gap: 85px
+}
+
+#children label,
+#bathroom label {
+    width: auto;
+}
+
+#children input,
+#bathroom input {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#inputBeds {
+    width: 100%;
+}
+
+#inputBeds label {
+    width: auto;
+}
+
+.objectData h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.amenitiesCheckboxContainer {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.amenitiesCheckboxContainer label {
+    width: auto;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.amenitiesCheckboxContainer input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#anotherH2 {
+    margin-bottom: 0;
+}
+
+#anotherWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+#kitchenType {
+    width: auto;
+    cursor: pointer;
+}
+
+.pubWrapper {
+    display: flex;
+    gap: 10px
+}
+
+.lastPage select {
+    width: auto;
+}
+
+.lastPage input {
+    width: 20%;
+}
+
+select {
+    cursor: pointer;
+}
+
+.suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    left: 13%;
+    top: 100%;
+}
+
+.city-active {
+    display: block;
+    border: 1px solid #ccc;
+}
+
+/* Стили для suggestions-list li */
+.suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Стили для suggestions-list li:hover */
+.suggestions-list li:hover {
+    background-color: #f2f2f2;
+}
+
+#cityWrapper {
+    position: relative;
+}

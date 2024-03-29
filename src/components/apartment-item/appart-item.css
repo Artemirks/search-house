@@ -1,0 +1,58 @@
+
+.apartment-card {
+    width: 50vw;
+    display: flex;
+    height: 15vw;
+    border-radius: 20px;
+    background: #FFF;
+    margin-left: 2.167vw;
+    gap: 30px;
+    margin-bottom: 1.153vw;
+    padding: 1.6vw ;
+}
+
+.apartment-card img {
+    width: 17.500vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.apartment-details {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.apartment-details h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.countGuest {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.rating {
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+
+.bottomInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.place {
+    font-size: 1.2rem;
+}
+
+.price {
+    font-size: 1.2rem;
+}
+.price p {
+    margin: 0;
+}

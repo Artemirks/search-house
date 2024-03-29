@@ -1,0 +1,38 @@
+.app-main {
+    padding: 4.542vw 4.792vw 3.875vw;
+    position: relative;
+    z-index: 0;
+    background: url('../../../public/images/main_back.jpg') center / cover no-repeat;
+    flex: 1;
+}
+
+.app-main:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.54);
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 3.8rem;
+    line-height: 1.25;
+}
+
+hr {
+    width: 1034.002px;
+    height: 2px;
+    margin-top: 51px;
+}
+
+#orText {
+    color: #FFF;
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 1rem 0;
+}
